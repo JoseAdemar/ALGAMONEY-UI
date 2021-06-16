@@ -13,6 +13,8 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
 import {CalendarModule} from 'primeng/calendar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SelectButtonModule } from 'primeng/selectbutton';
+import { DropdownModule } from 'primeng/dropdown';
+import { CurrencyMaskModule } from 'ng2-currency-mask';
 
 
 
@@ -35,7 +37,10 @@ import { SelectButtonModule } from 'primeng/selectbutton';
     CalendarModule,
     BrowserModule,
     BrowserAnimationsModule,
-    SelectButtonModule
+    SelectButtonModule,
+    DropdownModule,
+    CurrencyMaskModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
